@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Inscription Candidat</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<form action="http://localhost:8080/Master/InsererServlet"
+		method="post">
+
+		<div align=center>
+			<fieldset>
+				<legend>inscription</legend>
+				<table>
+					<tr>
+						<td><Label>Nom</Label></td>
+						<td><input type="text" name="nom"></td>
+					</tr>
+					<tr>
+						<td><Label>Prenom</Label></td>
+						<td><input type="text" name="prenom"></td>
+					</tr>
+					<tr>
+						<td><Label>Date de Naissance</Label></td>
+						<td><input type="date" name="dateNaissance"></td>
+					</tr>
+					<tr>
+						<td><Label>Moyennes des semestres</Label></td>
+						<td><input type="text" name="moyennes"></td>
+					</tr>
+					<tr>
+						<td><Label>Nombre de progressions</Label></td>
+						<td><input type="number" name="nbprogression"></td>
+					</tr>
+					<tr>
+						<td><Label>Nombre de rattrapages</Label></td>
+						<td><input type="number" name="nbrattrapage"></td>
+					</tr>
+					<tr>
+						<td><Label>Nombre de redoublements</Label></td>
+						<td><input type="number" name="nbredoublement"></td>
+					</tr>
+				</table>
+				<input type="submit" value="envoyer"/>
+			</fieldset>
+		</div>
+
+	</form>
+
+</body>
+</html>
